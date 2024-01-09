@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Jost', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  #user-goals {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #read {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem;
+    font-size: 3rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1b995e;
+    color: white;
+  }
+
+  #game-title {
+    margin: 3rem;
+    font-size: 3em;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1b995e;
+    color: white;
+  }
+  
+  .how {
+    font-size: 2em;
+  }
+
+  .words {
+    font-size: 1.5em;
+    color: #1b995e;
+    text-align: center;
+    margin: 0 1em 1em 1em;
+  }
+
+  #first-section label {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 1em;
+    color: #ec3169;
+  }
+
+  
+  #name{
+    margin: 0 1.5em 0.5em 0;
+    padding: 0.6em 1em;
+    font: inherit;
+    width: 50%;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-color: #1b995e;
+    border-radius: 4px;
+  }
+
+  .creator {
+    text-align: right;
+    color: #006400;
+  }
+  
+  #user-goals h2 {
+    font-size: 2rem;
+    border-bottom: 4px solid #ccc;
+    color: #1b995e;
+    margin: 0 0 1rem 0;
+  }
+  
+  #user-goals ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  
+  #user-goals li {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #8ddba4;
+    padding: 0.5rem;
+    color: #1f1f1f;
+    border-radius: 25px;
+  }
+  
+  #secondInput {
+    margin: 0 1.5em 0.5em 0;
+    padding: 0.6em 1em;
+    font: inherit;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-color: #ec3169;
+    border-radius: 4px;
+  }
+  
+  #user-goals input:focus {
+    outline: none;
+    border-color: #1b995e;
+    background-color: #e5f4ed;
+  }
+  
+  #user-goals button {
+    font: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ff0077;
+    background-color: #ff0077;
+    color: white;
+    padding: 0.8em 1em;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+    border-radius: 9px;
+    font-weight: bold;
+  }
+  
+  #user-goals li button {
+    padding: 0.4em .6em;
+    margin-right: 1em;
+  }
+
+
+  #user-goals button:hover,
+  #user-goals button:active {
+    background-color: #ec3169;
+    border-color: #ec3169;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+  }
+
+  #user-goals .fa-solid {
+    display: flex;
+    color: #ec3169;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    /* text-align: left; */
+  }
+ 
+  
