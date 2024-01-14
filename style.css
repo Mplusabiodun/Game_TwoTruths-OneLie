@@ -18,16 +18,6 @@
     text-align: center;
   }
 
-  #read {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    margin: 3rem;
-    font-size: 3rem;
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: #1b995e;
-    color: white;
-  }
-
   #game-title {
     margin: 3rem;
     font-size: 3em;
@@ -67,11 +57,33 @@
     border-radius: 4px;
   }
 
-  .creator {
+  .creator, .creator a {
     text-align: right;
     color: #006400;
   }
-  
+  .creator a {
+    color: #006400;
+  }
+
+  #read {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem;
+    font-size: 3rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1b995e;
+    color: white;
+  }
+
+  #user-goals .fa-solid {
+    display: flex;
+    color: #ec3169;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    /* text-align: left; */
+  }
+
   #user-goals h2 {
     font-size: 2rem;
     border-bottom: 4px solid #ccc;
@@ -137,13 +149,95 @@
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
   }
 
-  #user-goals .fa-solid {
-    display: flex;
-    color: #ec3169;
-    font-size: 2rem;
-    cursor: pointer;
-    margin-left: 1rem;
-    /* text-align: left; */
-  }
  
+  @media screen and (max-width: 884px) {
+    #user-goals {
+      background-color: yellow;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+      margin: 3rem;
+      border-radius: 10px;
+      padding: 1rem;
+    }
   
+    #game-title {
+      margin: 2.5rem;
+      font-size: 2.4rem;
+      padding: 1rem;
+    }
+    
+    .how {
+      font-size: 1.5rem;
+    }
+  
+    .words {
+      font-size: 1.2rem;
+      margin: 0 1em 1em 1em;
+    }
+  
+    #first-section label {
+      font-size: 1.2em;
+    }
+  
+    
+    /* #name{
+      margin: 0 1.5em 0.5em 0;
+      padding: 0.6em 1em;
+      font: inherit;
+      width: 50%;
+      font-weight: bold;
+      border: 1px solid #ccc;
+      border-color: #1b995e;
+      border-radius: 4px;
+    } */
+  
+    .creator {
+      font-size: 14px;
+    }
+    .creator a {
+      color: #006400;
+
+    }
+
+    #read {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+      margin: 2.5rem;
+      font-size: 2.4rem;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    #user-goals .fa-solid {
+      font-size: 1.5rem;
+    }
+
+    #user-goals h2 {
+      font-size: 1.3rem;
+    }
+    
+    #user-goals ul {
+      margin: 1rem 0;
+      padding: 0;
+    }
+    
+    #user-goals li {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+      padding: 0rem, 0.4rem 0.4rem 0.4rem;
+    }
+    
+    #secondInput {
+      padding: 0.6em 0.6em;
+      border: 1px solid #ccc;
+    }
+    
+    #user-goals button {
+      font-size: 1rem;
+      padding: 0.7em 0.9em;
+      font-weight: bold ;
+    }
+    
+    #user-goals li button {
+      padding: 0.3em 0.5em;
+      margin-right: 1em;
+    }
+  }
