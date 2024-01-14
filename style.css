@@ -152,7 +152,6 @@
  
   @media screen and (max-width: 884px) {
     #user-goals {
-      background-color: yellow;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
       margin: 3rem;
       border-radius: 10px;
